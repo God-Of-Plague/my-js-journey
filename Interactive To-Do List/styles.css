@@ -70,8 +70,9 @@ button {
   border-radius: 5px;
 }
 
-button:hover {
-  background-color: #45a049;
+li > button:hover {
+  transform: scale(1.1x);
+  font-size: 23px;
 }
 
 p {

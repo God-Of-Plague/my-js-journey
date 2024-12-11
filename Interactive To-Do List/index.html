@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Paragraph Text</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Basic TODO LIST</h1>
+      <ul id="hmm">
+          <li>Brushing Teeth <button onclick="remove(this)">-</button></li>
+          <li>Eating Breakfast <button onclick="remove(this)">-</button></li>
+          <li>Learning Javascript <button onclick="remove(this)">-</button></li>
+      </ul>
+
+      <input type="text" id="inputText" placeholder="Enter new text here" />
+
+      <button onclick="changeText()">Add Task</button>
+    </div>
+
+    <script src="starter.js"></script>
+  </body>
+</html>
